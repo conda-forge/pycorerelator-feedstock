@@ -1,5 +1,5 @@
 {% set name = "pycorerelator" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycorerelator-{{ version }}.tar.gz
-  sha256: d61f6f4c345eac326db7a6299b639cd1e4e6d9ed7494d51f8fb89a3f9c162e38
+  sha256: 38f349014603bcbaecb70bf8f2d6cc20f4b956cb44e9ae4801b1e516b6782594
 
 build:
   noarch: python
@@ -59,7 +59,7 @@ about:
     analysis across geological core and physical log data. It provides tools for processing 
     RGB and CT core images, data gap filling using machine learning, interactive stratigraphic 
     boundary picking, and Dynamic Time Warping (DTW) based correlation analysis.
-    
+
     Key Features:
     - RGB and CT image processing for geological cores
     - Machine learning-based data gap filling
