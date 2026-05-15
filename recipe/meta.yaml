@@ -1,5 +1,5 @@
 {% set name = "pycorerelator" %}
-{% set version = "0.0.3" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycorerelator-{{ version }}.tar.gz
-  sha256: 9fc39144f052cfe4702a5331a87c437de604938d3a0a9b2be97d4aa370c7f7dd
+  sha256: 5acd1568ac3fb2aa29cfa487c2eef5f54258cd683a228a01dca5e8618f454bc0
 
 build:
   noarch: python
